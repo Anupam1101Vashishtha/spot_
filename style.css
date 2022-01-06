@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: #cecece;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    /* ye height property nav bar ki height set kr degi */
+    /* Agr hum height set naa kre toh nav bar kafi bada display hoga */
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    /* display ko flex krne se Unordered list tag k andar jo bhi h wo sab items horizontally display hone lagenge */
+    align-items: center;
+    /* align items center krne se jo ul k andar items (lists) h wo nav bar k center mai aa jaayenge */
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+
+nav ul li{
+    padding: 10px 12px;
+    /* padding : TopBotton RightLeft */
+}
+/* logo ko ka size chota krne k liye hum usski width kum krenge as shown below */
+
+.brand-name img{
+    width: 60px;
+    padding-right: 15px;
+}
+
+.brand-name{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+
+.container{
+    height: 75vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(bg3.jpeg);
+}
+
+.bottom{
+    position: sticky;
+    /* position ko sticky krne se element ek jagah rahega jab scroll kr rhe ho tab bhi */
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally). */
+    /* align-items: center; */
+
+}
+
+
+#myProgressBar{
+    width: 80vw;
+}
+
+
+.song-item{
+    border: 2px solid white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.song-info{
+    position: absolute;
+    left: 0px;
+    margin-top: 13px;
+    margin-left: 25px;
+    opacity: 0;
+}
+
+
+#masterPlay{
+    margin-top: 20px;
+    margin-left: 10px;
+}
